@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    background-color: bisque;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: Geneva;
+    font-weight: 60;
+    padding: 30px;
+    background-color: darkgray;
+}
+
+.p {
+    color: white;
+    background-color: slategrey;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: powderblue;
+}
+
+a:link {
+    color: white
+}
+
+a:visited {
+    color: white
+}
+
+.grid:hover {
+    transform: scale(1.2);
+}
+
+.a {
+    text-decoration: none;
+}
